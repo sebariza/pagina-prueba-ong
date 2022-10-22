@@ -55,3 +55,49 @@ html {
 	border-radius: 1rem 0 0 1rem;
 	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
 }
+
+
+
+/* * ============================== */
+/* * ====== MEDIA QUERIES ========= */
+/* * ============================== */
+@media screen and (max-width: 600px){
+
+
+	.social-bar {
+		position: fixed;
+		bottom: 0%;
+		
+		
+		
+
+		font-size: 1.5rem;
+		display: flex;
+		flex-direction: row;
+		align-items: flex-end;
+
+		z-index: 100;
+		/* transform:  translate(-50%); */
+
+		
+	}
+	.icon:first-child {
+		border-radius: 1rem 0 0 0;
+	}
+	
+	.icon:last-child {
+		border-radius: 0 0 0 0;
+	}
+	.icon:hover {
+		padding-block-start: 3rem;
+		border-radius: 1rem 1rem 0 0;
+		box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+	}
+	
+
+}
+
+
+
+
+

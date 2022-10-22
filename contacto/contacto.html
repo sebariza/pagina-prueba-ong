@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PINAR ONG - Contacto</title>
+    <link rel="stylesheet" href="main.css">
+    <!-- FUENTES GOOGLE  -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <!-- FUENTES AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- CSS ANIMADO -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+</head>
+<body>
+    
+    <div class="content">
+
+        <h1 class="logo">Contactanos</h1>
+
+        <div class="contact-wrapper animated bounceInUp">
+            <div class="contact-form">
+                <h3>Contactanos</h3>
+                <form action="enviar.php" method="post">
+                    <p>
+                        <label>Nombre completo</label>
+                        <input type="text" name="fullname" id="names">
+                    </p>
+                    <p>
+                        <label>Correo electrónico</label>
+                        <input type="email" name="email" id="email">
+                    </p>
+                    <p>
+                        <label>Número de Teléfono</label>
+                        <input type="tel" name="phone" id="phone">
+                    </p>
+                    <!--<p>
+                        <label>Asunto</label>
+                        <input type="text" name="affair">
+                    -->
+                    
+                    </p>
+                    <p class="block">
+                       <label>Mensaje</label> 
+                        <textarea name="message" rows="3" id="mensaje"></textarea>
+                    </p>
+                    
+                    
+                    <p class="block" id="btnSend">
+                        <button>
+                            Enviar
+                        </button>
+                    </p>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h4>PINAR ONG - Más Información</h4>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> Olivos, Partido de Vicente López, Provincia de Buenos Aires</li>
+                    <li><i class="fas fa-phone"></i> +54 (11) 1234-5678</li>
+                    <li><i class="fas fa-envelope-open-text"></i> contacto@sitioweb.com</li>
+                </ul>
+                <p>Tu apoyo es fundamental para llegar a más hogares y comunidades.</p>
+                
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>

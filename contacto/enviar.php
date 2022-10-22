@@ -19,7 +19,6 @@ $para = 'seba-ariel-ariza1982@hotmail.com';
 $asunto = 'Asunto del mensaje';
 
 mail($para, $asunto, utf8_decode($message), $header);
-echo 'mensaje enviado correctamente'
 header("Location:contacto.html");
 ?>
 

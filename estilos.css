@@ -279,7 +279,7 @@ footer .contenedor-imagen{
 /* * ============================== */
 /* * ====== MEDIA QUERIES ========= */
 /* * ============================== */
-@media screen and (max-width: 900px){
+@media screen and (max-width: 600px){
 	.navbar .contenedor {
 		flex-wrap: wrap;
 		margin: 0;

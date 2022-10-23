@@ -284,6 +284,7 @@ footer .contenedor-imagen{
 		flex-wrap: wrap;
 		margin: 0;
 		width: 100%;
+
 	}
 
 	.navbar a {
@@ -295,6 +296,7 @@ footer .contenedor-imagen{
 		height: 30vh;
 	}
 
+	
 	main .contenedor {
 		flex-direction: column;
 	}
@@ -302,6 +304,33 @@ footer .contenedor-imagen{
 		position: static;
 		margin: 40px 0 0 0;
 	}
+
+
+	
+	main .contenido p {
+		line-height: 25px;
+	}
+	
+	main .contenido .titulo {
+		padding-top: 25px;
+	}
+	
+	.texban{
+		font-size: medium;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 

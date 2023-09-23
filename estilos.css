@@ -23,7 +23,9 @@ a:hover {
 
 body {
     font-family: 'Noto Sans JP', sans-serif;	
-	background: #ccf1dd;
+	
+	background-image: linear-gradient(to right, #e4afcb 0%, #b8cbb8 0%, #b8cbb8 0%, #e2c58b 30%, #c2ce9c 64%, #7edbdc 100%);
+	
 }
 
 /* * ============================== */
@@ -32,12 +34,14 @@ body {
 
 
 .navbar {
-	background: #52c9af;
+	background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+	
 	position: sticky;
 	top: 0;
 	font-family: "Montserrat", sans-serif;
 	font-weight: bold;
 	z-index: 100;
+	
 }
 
 .navbar a {
@@ -51,7 +55,10 @@ body {
 }
 
 .navbar a:hover {
-	background: #118a51;
+	
+	background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+	
+	
 	color: #fff;
 	text-decoration: none;
 }
@@ -63,6 +70,9 @@ body {
 	display: flex;
 	justify-content: space-between;
 }
+
+
+
 
 /* * ============================== */
 /* * ===== CONTENEDOR IMAGEN ====== */
@@ -127,7 +137,11 @@ aside {
 	min-width: 30%;
 	margin: 40px 20px 20px 0;
 	height: 100%;
-	background: #52c9af;
+	
+	/*COLOR ACTIVIDADES -lateral-*/
+	background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+
+
 	padding: 20px;
 	border-radius: 3px;
 	position: sticky;
@@ -198,8 +212,8 @@ aside .indice a {
     transition: 0.2s;
 }
 .btn-neon:hover{
-    background: #56f7e2;
-    box-shadow: 0 0 10px #56f7e2, 0 0 40px #56f7e2, 0 0 80px #56f7e2;
+    background: #ffdd33;
+    box-shadow: 0 0 10px #fff601, 0 0 40px #fff601, 0 0 80px #fff601;
     transition-delay: 1s;
  }
 .btn-neon span{
@@ -211,7 +225,7 @@ aside .indice a {
     left: -100%;
     width: 100%;
     height: 2px;
-    background: linear-gradient(90deg, transparent,#56f7e2);
+    background: linear-gradient(90deg, transparent,#ffdd33);
  }
  .btn-neon:hover #span1{
     left: 100%;
@@ -222,7 +236,7 @@ aside .indice a {
     right: -100%;
     width: 100%;
     height: 2px;
-    background: linear-gradient(270deg, transparent,#56f7e2);
+    background: linear-gradient(270deg, transparent,#ffdd33);
 }
  .btn-neon:hover #span3{
     right: 100%;
@@ -234,7 +248,7 @@ aside .indice a {
     right: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(180deg,transparent,#56f7e2);
+    background: linear-gradient(180deg,transparent,#ffdd33);
 }
 .btn-neon:hover #span2{
     top: 100%;
@@ -246,7 +260,7 @@ aside .indice a {
     left: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(360deg,transparent,#56f7e2);
+    background: linear-gradient(360deg,transparent,#ffdd33);
 }
 .btn-neon:hover #span4{
     bottom: 100%;
@@ -293,7 +307,7 @@ footer .contenedor-imagen{
 	}
 
 	.contenedor-imagen {
-		height: 30vh;
+		height: 30%;
 	}
 
 	
